@@ -844,15 +844,28 @@ section,
   }
 }
 
-.hero .hero-wrapper .hero-content .action-buttons .btn-primary {
+/* .hero .hero-wrapper .hero-content .action-buttons .btn-primary {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+} */
+
+.btn-primary {
   background: var(--accent-color);
   color: var(--contrast-color);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.hero .hero-wrapper .hero-content .action-buttons .btn-primary:hover {
+/* .hero .hero-wrapper .hero-content .action-buttons .btn-primary:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
   transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+} */
+
+.btn-primary:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  transform: translateY(-3px);
+  color: var(--contrast-color);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
