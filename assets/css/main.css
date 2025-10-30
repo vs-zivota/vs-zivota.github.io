@@ -6793,7 +6793,7 @@ section,
   }
 
   .events-extended .events-list .event-item .event-date .day:after {
-    content: ",";
+    content: ".";
   }
 
   .events-extended .events-list .event-item .event-content .event-meta {
